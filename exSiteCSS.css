@@ -1,0 +1,26 @@
+.entry {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+}
+
+.product-info {
+    margin: 15px 30px 20px 30px;
+    display: inline;
+    
+}
+
+.menu_navbar {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
