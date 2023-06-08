@@ -1,0 +1,72 @@
+body {
+    padding: 1em 2em;
+    line-height: 1.6;
+    font-size: 18px;
+    background-color: lightgray;
+}
+
+.header, .nav, .container {
+    margin-bottom: 1em;
+}
+
+h2 {
+    font-size: 3em;
+    text-align: center;
+}
+
+.nav {
+    text-align: center;
+}
+
+.nav > div {
+    display: inline-block;
+    background-color: lightcyan;
+    color: lightskyblue;
+    border: 1px solid black;
+    padding: 0.25em 5em;
+    margin: 5px 5px;
+}
+
+.nav > div:hover {
+    background-color: lightskyblue;
+    color: lightcyan;
+}
+
+.nav > div:nth-child(odd):hover {
+    background-color: lightcoral;
+    color: lightcyan;
+}
+
+.container {
+    height: 100%;
+}
+
+.sidebar {
+    float: left;
+    width: 30%;
+    height: 100%;
+    padding: 1em;
+    border: 1px solid rosybrown;
+}
+
+li {
+    border-bottom: 1px solid gray;
+}
+
+li:hover {
+    background-color: dimgray;
+    color: white;
+}
+
+.content {
+    float: right;
+    width: 65%;
+    height: 100%;
+    padding: 1em;
+    border: 1px solid rosybrown;
+    background-color: lightgoldenrodyellow;
+}
+
+p {
+    text-shadow: 1px 1px 1px lightgray;
+}
