@@ -17,10 +17,16 @@ section {
     
 }
 
-.menu_navbar {
+.menu_navbar{
     background-color: #fff;
     border: 1px solid #ddd;
     border-radius: 4px;
     margin-bottom: 20px;
     padding: 20px;
+}
+
+a:hover {
+    text-decoration: none;
+    display: block;
+    background-color: #ddd;
 }
