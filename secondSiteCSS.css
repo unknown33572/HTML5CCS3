@@ -1,0 +1,31 @@
+.title {
+    border: 5px solid #ddd;
+    background-color: beige;
+    height: 50px;
+}
+
+.container {
+    height: 150px;
+}
+
+.sidebar {
+    border: 5px solid #bbb;
+    background-color: lightsalmon;
+    width: 34%;
+    height: 94%;
+    float: left;
+}
+
+.content {
+    border: 5px solid #bbb;
+    background-color: lightblue;
+    width: 64.75%;
+    height: 94%;
+    float: right;
+}
+
+.footer {
+    border: 5px solid #bbb;
+    background-color: lightgreen;
+    height: 50px;
+}
